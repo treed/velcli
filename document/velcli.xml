@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "/opt/local/share/xml/docbook/4.4/docbookx.dtd">
+ 
+<book>
+  <bookinfo>
+    <title>velcli fi la lojban noi lojbo</title>
+    <author>Ted Reed</author>
+  </bookinfo>
+  <preface>
+    <title>Introduction</title>
+    <para>Having been a Lojbanist for about six years now, I’ve watched many a person try their hand at learning the language. I’ve seen common stumbling blocks and been able to discern the Usual Stages of Progression.</para>
+    <para>One thing I’ve noticed is that many people seem hell bent on speaking Lojban is if it were their native language. No matter what your native language is, Lojban is not like it. No, seriously. You’ll hear more of this rant in bits as we go through the language, but I’m going to say it up front here: Lojban is not much like English, or any other natural language. It is such on purpose, Lojban being a child of Loglan. At it’s outset, Loglan’s stated purpose was to test the Sapir-Whorf Hypothesis. Creating yet another pan-European artificial language would not have been sufficient. A whole new paradigm was needed.</para>
+    <sidebar>
+      <title>The Sapir-Whorf Hypothesis</title>
+      <para>There have, for a long time, been those who recognize that you can tell a great deal about a culture by examining the vocabulary available in its language. In the 1920s, a linguist named Edward Sapir suggested that it goes beyond vocabulary to the overall structure of the language itself. Sapir’s student, Benjamin Lee Whorf published a hypothesis in 1936 which refined these notions: <quote>We cut nature up, organize it into concepts, and ascribe significances as we do, largely because we are parties to an agreement to organize it in this way—an agreement that holds throughout our speech community and is codified in the patterns of our language.</quote></para>
+    </sidebar>
+    <para>This book is written from my point of view, which seems to be at least somewhat unique among Lojbanists. My position is that learning Lojban while insisting on equating its grammatical features to those of natural languages will only cause the learning curve to be steeper than it could otherwise be. This book will concentrate on teaching Lojban <emphasis>as</emphasis> Lojban.</para>
+    <para>One thing that I feel I should point out is that, because of that focus, we’re sometimes going to need to go over things more than once. Most of the features of the language will make more sense once you’ve learned other portions of it. I always hate it when textbooks completely gloss over advanced topics, so where possible I will mention the advanced usages as they come up, but mark them as advanced. So don’t get frustrated if you don’t understand everything I’m throwing at you all at once.</para>
+    <para>Another thing to get out of the way up front is that this book will not simply be a rehashing of the books that have come before. The <foreignphrase>baupla fuzykamni</foreignphrase> (Language-Planning Committee) is still deciding on a final language specification, and some things have changed since the last set of books were published. Beyond that, some accepted terminology has changed. This book aims to help teach the language as I expect it will be, and to lessen the amount of confusion that a lot of new learners contend with as a result of the recent linguistic changes.</para>
+  </preface>
+  <chapter>
+    <title>fi'o tadni</title>
+    <para>The title of this chapter is <foreignphrase>fi'o tadni</foreignphrase>, which means <quote>Welcome, Student(s)!</quote>. This chapter will set the foundation for the rest of the book.</para>
+    <section>
+      <title>The Alphabet</title>
+      <para>Ah, the alphabet. As any student of languages knows, this is usually the first stop on the way to language mastery. Before you can begin to learn a language, you must learn how to read that language. One could, I suppose, manage to learn a language without ever having any idea how its pronounced (ASL, for example), but I’ve always found it much easier to retain a language when I know how it’s pronounced.</para>
+      <para>So? Let’s start. Don’t worry if you don’t understand the table. I’ll explain more shortly.</para>
+      <table>
+        <title>The Alphabet</title>
+        <tgroup cols="3">
+          <colspec colnum="1" colname="latin" colwidth="1*"/>
+          <colspec colnum="2" colname="IPA" colwidth="3*" />
+          <colspec colnum="3" colname="description" colwidth="12*" />
+          <tbody>
+            <row>
+              <entry>'</entry>
+              <entry>[h],[θ]</entry>
+              <entry>Any otherwise-unused unvoiced fricative</entry>
+            </row>
+            <row>
+              <entry>,</entry>
+              <entry>—</entry>
+              <entry>No pronunciation, used to indicate syllable breaks.</entry>
+            </row>
+            <row>
+              <entry>.</entry>
+              <entry>[ʔ]</entry>
+              <entry>A glottal stop, or just a noticable pause.</entry>
+            </row>
+            <row>
+              <entry>a</entry>
+              <entry>[a],[ɑ],[ɶ],[ɒ]</entry>
+              <entry>Any open vowel.</entry>
+            </row>
+            <row>
+              <entry>b</entry>
+              <entry>[b]</entry>
+              <entry>A voiced bilabial stop.</entry>
+            </row>
+            <row>
+              <entry>c</entry>
+              <entry>[ʃ], [ʂ], [ɕ]</entry>
+              <entry>An unvoiced postalveolar or retroflex fricative.</entry>
+            </row>
+            <row>
+              <entry>d</entry>
+              <entry>[d]</entry>
+              <entry>A voiced dental/alveolar stop.</entry>
+            </row>
+            <row>
+              <entry>e</entry>
+              <entry>[ɛ], [e]</entry>
+              <entry>A front mid vowel.</entry>
+            </row>
+            <row>
+              <entry>f</entry>
+              <entry>[f], [ɸ]</entry>
+              <entry>An unvoiced labial fricative.</entry>
+            </row>
+            <row>
+              <entry>g</entry>
+              <entry>[g]</entry>
+              <entry>A voiced velar stop.</entry>
+            </row>
+            <row>
+              <entry>i</entry>
+              <entry>[i]</entry>
+              <entry>A front close vowel.</entry>
+            </row>
+            <row>
+              <entry>j</entry>
+              <entry>[ʒ], [ʐ]</entry>
+              <entry>A voiced postalveolar or retroflex fricative.</entry>
+            </row>
+            <!-- TODO finish this table -->
+          </tbody>
+        </tgroup>
+      </table>
+      <para>One thing that comes to the fore immediately is that, unlike many other artificial languages, Lojban has many permitted pronunciations of each letter.  This was done partially because every language invariably acquires variations of pronunciation, and it was believed that it’s better to design those variations into the language up front. Another reason is to enable speakers of widely varying origins (and native languages) to be able to pronounce the language with the <emphasis>official</emphasis> pronunciations.</para>
+    </section>
+    <section>
+      <title>Basic Sentences</title>
+      <para>So now that we’ve gotten the alphabet out of the way, how about some basic sentences?</para>
+      <para>This section will display several Lojban sentences, and relate an English translation. Note that I’m not really going to try to explain much at this point. I’m just trying to give a top-down view of the language. Note further that I did not say <emphasis>the</emphasis> English translation. Each Lojban sentence could have any number of translations, and in some sense, they aren’t always directly translatable. There are many things that Lojban leaves to context but which must appear in an English sentence, and there are things that Lojban specifies but English has a hard time with. So keep that in mind as we go through some of these. There are sometimes also multiple Lojban words that could each mean the same thing in English, or one Lojban word that could mean multiple things in English.</para>
+      <para>For example:</para>
+      <para><foreignphrase>mi klama le zarci</foreignphrase></para>
+      <para><quote>I go to the store.</quote></para>
+      <para>Seems pretty basic, doesn’t it? Well, for one, neither <foreignphrase>mi</foreignphrase> nor <foreignphrase>le zarci</foreignphrase> has to be singular. They could each be plural, too. So <quote>We go to the store.</quote>, <quote>I go to the stores.</quote> and <quote>We go to the stores.</quote> could be just as valid, depending on context. Also, the Lojban does not specify a tense. It could be <quote>I went to the store.</quote> or even <quote>I’ll go to the store.</quote> or <quote>I’m about to go to the store.</quote> or any other tense.</para>
+      <para>Sound confusing? I suppose it could be. But while sentences in isolation can be difficult to translate, a sentence in context is almost always completely obvious on these points. For example, if Joe gets up and walks to the door, and Tom asks him what he’s doing, it’s pretty obvious what he means by it. If not, then Tom could always ask for clarification!</para>
+      <para>How about another one:</para>
+      <para><foreignphrase>la .bab. prami la .kerl.</foreignphrase></para>
+      <para><quote>Bob loves Carol.</quote></para>
+      <para>Again, neither <foreignphrase>la .bab.</foreignphrase> nor <foreignphrase>la .kerl.</foreignphrase> is specifically singular. Any conversation using those names probably assumes that you know who they are, so making specific note of the plurality isn’t important. Again, too, there is no tense specified. This could have happened in the past for all we know, or any of the other tenses.</para>
+      <para><foreignphrase>la .alis. tatpi le nu zutse le rirxe korbi gi’e zukte fi no da</foreignphrase></para>
+      <para><quote>Alice was tired of sitting on the river’s edge and doing nothing.</quote></para>
+      <para>You may recognize this as the first sentence of Alice’s Adventures in Wonderland. (Or, then again, you may not.) This one is more to show a little bit more of the depth of Lojban. (Obviously not too much. The stuff that really shows the depth of Lojban would require some serious translation.)</para>
+    </section>
+    <section>
+      <title>Word Types</title>
+      <para>So now that we’ve seen some example sentences, let’s discuss how to start pulling those sentences apart so that we can understand them. The first step is being able to determine the category of the word. Just as in English it helps to know if something is a noun or a verb or whatever else, understanding Lojban is much easier once you begin to recognize the types of words. There are many categories at various levels, and this lesson will only go over the top most: The categories determined by the shape of the word.</para>
+      <para>At the top-most level, there are three types of word in Lojban: cmevla, cmavo, and brivla. We’ll go over each in turn.</para>
+      <section>
+        <title>cmevla</title>
+        <para>cmevla (SHMEH-vlah) are name-words. These are words which can only be used as names, ever. That’s not to say that <emphasis>only</emphasis> they can be used as names, but rather that they are never anything else. You can tell a cmevla by the fact that it ends in a consonant. Some examples from the previous section are <foreignphrase>.alis.</foreignphrase> <quote>Alice</quote> and <foreignphrase>.bab.</foreignphrase> <quote>Bob</quote>.</para>
+        <para>What’s with the pauses before and after each cmevla? Well, in order to ensure that a stream of Lojban sounds are discernible as individual words, there are certain requirements. Among these are that any Lojban word that ends in a consonant must be followed by a pause and that any Lojban word that begins with a vowel, must be preceded by a pause. Of course, <foreignphrase>.bab.</foreignphrase> begins with a consonant, but is still preceded by a pause. How does that work? There is another rule that also stipulates that cmevla must always be preceded by a pause. This rule, however, is not yet official, so don't be alarmed if you see cases where cmevla are not preceded by a pause. For more information about this, see the sidebar.</para>
+        <sidebar>
+          <title>Dot Side</title>
+          <para>Per the language standard as it sits right now (August 2009), there is no requirement to have that preceding pause. However, there is a well-received proposal that is jokingly referred to as the Dot Side (like <quote>Dark Side</quote>, as in <quote>Come to the Dark Side!</quote>). First let me explain the current standard and why the proposal came up.</para>
+          <para>Again, we’re going to talk about requirements imposed by the need to be able to parse words out of a speech stream. There are some difficulties imposed by cmevla. One of these is that, while we can always unambiguously tell where it ends, telling where it begins isn’t as easy. So the creators of Lojban set it up so that every instance of a cmevla must be preceded by either a pause, or one of three words, intended to say <quote>Hey, there’s a name coming.</quote> These three words are <foreignphrase>la</foreignphrase>, <foreignphrase>lai</foreignphrase>, and <foreignphrase>doi</foreignphrase>. As a result, per the current standard, cmevla may not contain those combinations of letters.</para>
+          <para>However, we came to notice that even very experienced Lojbanists tended to forget about that rule, and started to consider how we might change it so as to avoid that problem altogether. The result was Dot Side.</para>
+          <para>Dot Side simply says that you must precede any cmevla with a pause. Since we then can always tell the beginning of a cmevla, the introduction words need not function in that way (they still have their other uses, though), and we can now use them inside cmevla.</para>
+          <para>This book is written under the assumption that Dot Side will eventually be standard Lojban. However, because extra pauses are never wrong, any Dot Side cmevla is also CLL-compatible unless it contains one of the illegal three. I doubt we’ll run into that problem at all.</para>
+        </sidebar>
+      </section>
+      <section>
+        <title>brivla</title>
+        <para>Next, we’ll look at the meat of the language, the brivla. The word <foreignphrase>brivla</foreignphrase> is itself a brivla, and means <quote>content word</quote>. Brivla is the class of word that enables the speaker to speak of anything at all. Brivla fill the roles of most of the <emphasis>usual</emphasis> grammatical classes. They can act like English nouns, verbs, adjectives, or adverbs without changing form at all.</para>
+        <para>That’s impossible, you say? Every language <emphasis>must</emphasis> make distinctions between those? Think again. Here are some examples.</para>
+        <para>Consider the difference between <quote>Tom loves Anna.</quote> and <quote>Tom is a lover of Anna</quote>. The second might seem oddly worded, but bear with me here. Additionally, let’s throw in <quote>Anna is loved by Tom.</quote> and <quote>Anna is the beloved of Tom.</quote> Here we have three words: to love, lover, and beloved. One verb, two nouns. In Lojban, all three of those are expressed by brivla. (The first two by the *same* brivla, no less.) There’s no difference between them, from an abstract point of view. The all describe the same relationship.</para>
+        <para>Let’s try something else, that might be a little different. There’s a Lojban word <foreignphrase>sutra</foreignphrase> that means, basically, <quote>fast</quote>. <quote>Fast</quote> is an adjective, but <foreignphrase>sutra</foreignphrase> is not. What <foreignphrase>sutra</foreignphrase> really means is that <emphasis>something</emphasis> is fast. It could just as easily be translated as <quote>a fast thing</quote>. it’s just that there’s no common word for <quote>a fast thing</quote> in English, so that’s how it gets translated. But that’s what it means. It describes something that is fast. It can also, with a shift of position, indicate that something is done quickly.</para>
+        <para>Going back to the <quote>love</quote> example, let’s talk again about the phrase <quote>Tom is a lover of Anna.</quote> If this is the case, then <quote>Tom is a lover.</quote> is also true. Of course, used this way, the word <quote>lover</quote> has the connotation of a <emphasis>habitual</emphasis> lover. But, in order for Tom to be a lover, he has to love someone (or something). That kind of</para>
+      </section>
+      <section>
+        <title>cmavo</title>
+        <para>The last one to discuss is cmavo. Cmavo are hard to describe, because they perform many, many different functions in the language. The only common attribute that they all share is evidenced in the origin of the name. <foreignphrase>cmavo</foreignphrase> is one of the few Lojban words derived from Lojban itself, being derived from <foreignphrase>cmalu valsi</foreignphrase> or <quote>small word</quote>.</para>
+      </section>
+    </section>
+  </chapter>
+</book>

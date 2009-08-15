@@ -1,0 +1,7 @@
+docbook/
+velcli.pdf
+velcli.html
+velcli.fo
+.DS_Store
+*.swp
+fop.cfg
