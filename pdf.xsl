@@ -7,7 +7,7 @@
 <xsl:import href="docbook-kit/style/fo/docbook.xsl"/> 
 
 <xsl:param name="default.encoding" select="'UTF-8'" />
-<xsl:param name="body.font.family" select="'serif'"/>
-<xsl:param name="title.font.family" select="'serif'"/>
+<!-- <xsl:param name="body.font.family" select="'serif'"/>
+<xsl:param name="title.font.family" select="'serif'"/> -->
 
 </xsl:stylesheet>  
